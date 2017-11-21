@@ -1,0 +1,125 @@
+/*Slider*/
+.section-home--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 80%;
+}
+.content-slider {
+  width: 100%;
+}
+.slider {
+  display: none;
+  overflow: hidden;
+}
+.slider.is-active {
+  display: block;
+}
+.slider-main {
+  display: flex;
+  align-items: center;
+}
+.slider-contents {
+  overflow: hidden;
+  flex: 1;
+}
+
+.slider-contents-inner {
+  display: flex;
+  flex-flow: row nowrap;
+  transition: transform 300ms;
+}
+.slider-item {
+  overflow: hidden;
+  margin: 0 1rem;
+  flex: 1;
+  height: 150px;
+  background-color: #eee;
+  img {
+    width: 150%;
+  }
+}
+.slider-control {
+  flex: 0 0 4rem;
+  max-width: 4rem;
+  height: 4rem;
+  background-color: #eee;
+  cursor: pointer;
+}
+.slider-control--prev {
+  margin-right: 1rem;
+}
+.slider-control--next {
+  margin-left: 1rem;
+}
+.slider-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.slider-nav-item {
+  margin: 0 0.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slider-nav-item.is-active {
+  background-color: #aaa;
+}
+
+/*Oferts*/
+.section {
+  &-bannerOfert {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .title{
+      margin-bottom: 30px;
+    }
+  }
+  &-oferts{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    .img-small-ofert {
+      height: 300px;
+      margin-bottom: 40px;
+      overflow: hidden;
+    }
+    .img-small-ofert-hover:hover{
+      .text-bottom {
+        opacity:1;
+      }
+    }
+    .text {
+      position: absolute;
+      top: 10%;
+      right: 10%;
+      color: #fff;
+      h3 {
+        font-size: 25px;
+      }
+      span {
+        color: #1498d5;
+        text-shadow: 1px 1px 1px white;
+        font-size: 30px;
+      }
+      &-bottom {
+        text-align: center;
+        -webkit-transition: opacity .35s,transform .35s;
+        transition: opacity .35s,transform .35s;
+        opacity: 0;
+        position: absolute;
+        bottom: 0;
+        background-color: #fff;
+        width: 100%;
+        h3 {
+           padding: 10px;
+           color: #000;
+        }
+      }
+    }
+  }
+}
