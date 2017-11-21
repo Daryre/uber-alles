@@ -87,12 +87,17 @@ $(document).ready(function(){
       $("#destino").load("novedades.html")
    };
 
-   $("#btn-ofert").click(function(evento){
+   $('#btn-nov').click(function(event){
+    event.preventDefault();
+    $('#destino').load('index.html');
+   });
+
+   $('#btn-ofert').click(function(evento){
       evento.preventDefault();
       $('#destino').load('ofertas.html');
    });
 
-   $("#btn-ped").click(function(evento){
+   $('#btn-ped').click(function(evento){
       evento.preventDefault();
       $('#destino').load('pedidos.html');
    });
