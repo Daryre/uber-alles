@@ -92,14 +92,19 @@ $(document).ready(function(){
     $('#destino').load('index.html');
    });
 
-   $('#btn-ofert').click(function(evento){
-      evento.preventDefault();
+   $('#btn-ofert').click(function(event){
+      event.preventDefault();
       $('#destino').load('ofertas.html');
    });
 
-   $('#btn-ped').click(function(evento){
-      evento.preventDefault();
+   $('#btn-ped').click(function(event){
+      event.preventDefault();
       $('#destino').load('pedidos.html');
+   });
+
+    $('#btn-categ').click(function(event){
+      event.preventDefault();
+      $('#destino').load('categorias.html');
    });
 
    $('.nav-right li > ul li').click(function(){
