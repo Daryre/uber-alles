@@ -106,6 +106,10 @@ $(document).ready(function(){
       event.preventDefault();
       $('#destino').load('categorias.html');
    });
+    $('#btn-ay').click(function(event){
+      event.preventDefault();
+      $('#destino').load('ayuda.html');
+   });
 
    $('.nav-right li > ul li').click(function(){
     $('li').removeClass("active");

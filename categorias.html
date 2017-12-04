@@ -1,70 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>Categorias</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/categorias.css">
+	<meta charset="UTF-8">
+	<title>Ayuda</title>
 </head>
 <body>
-	<section>
-		<section class="section section-category">
+	<section class="section section-bannerOfert">
+		<div class="container">
 			<div class="title text-center">
-				<h1>CATEGORIAS</h1>
-			</div>
-			<div class="title">
 				<h1>CUIDADO PERSONAL</h1>
 			</div>
-			<div class="section section-home--container">
-			  <div class="content-slider">
-			  	<div class="slider js-slider">
-				    <div class="slider-main">
-				      <a class="slider-control slider-control--prev js-slider-prev"></a>
-				      <div class="slider-contents">
-				        <div class="slider-contents-inner js-slider-contents">
-				          <div class="slider-item js-slider-item"">
-				          	<img src="images/cp-1.jpg" alt="">
-				          </div>
-				          <div class="slider-item js-slider-item">
-				          	<img src="images/cp-2.png" alt="">
-				          </div>
-				          <div class="slider-item js-slider-item">
-				          	<img src="images/cp-3.png" alt="">
-				          </div>
-				          <div class="slider-item js-slider-item">
-				          	<img src="images/cp-4.jpg" alt="">
-				          </div>
-				          <div class="slider-item js-slider-item">
-				          	<img src="images/cp-5.jpg" alt="">
-				          </div>
-				          <div class="slider-item js-slider-item"">
-				          	<img src="images/cp-6.jpg" alt="">
-				          </div>
-				          <div class="slider-item js-slider-item">
-				          	<img src="images/cp-7.jpg" alt="">
-				          </div>
-				          <div class="slider-item js-slider-item">
-				          	<img src="images/cp-8.jpg" alt="">
-				          </div>
-				          <div class="slider-item js-slider-item">
-				          	<img src="images/cp-9.png" alt="">
-				          </div>
-				          <div class="slider-item js-slider-item">
-				          	<img src="images/cp-10.jpg" alt="">
-				          </div>
-				        </div>
-				      </div>
-				      <a class="slider-control slider-control--next js-slider-next"></a>
-				    </div>
-				    <div class="slider-nav js-slider-nav"></div>
-				  </div>
-			  </div>
+			<div class="owl-carousel owl-theme">
+		    <div class="item" data-target="#masajes" data-toggle="modal">
+		    	<img src="images/cp-1.jpg" alt="">
+		  	</div>
+		    <div class="item" data-target="#iphone" data-toggle="modal">
+		    	<img src="images/cp-2.png" alt="">
+		 		</div>
+		    <div class="item" data-target="#maquillaje" data-toggle="modal">
+		    	<img src="images/cp-3.jpg" alt="">
+		  	</div>
+		    <div class="item" data-target="#audifonos" data-toggle="modal">
+		    	<img src="images/cp-4.jpg" alt="">
+		  	</div>
+		    <div class="item" data-target="#apple" data-toggle="modal">
+		    	<img src="images/cp-5.jpg" alt="">
+		  	</div>
 			</div>
-		</section>
+		</div>
 	</section>
-<script src="js/jquery2-1-4.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+	<section class="section section-bannerOfert">
+		<div class="container">
+			<div class="title text-center">
+				<h1>TECNOLOGIA</h1>
+			</div>
+			<div class="owl-carousel owl-theme">
+		     <div class="item" data-target="#iphone" data-toggle="modal">
+		    	<img src="images/home2.jpg" alt="">
+		 		</div>
+		 		<div class="item" data-target="#audifonos" data-toggle="modal">
+		    	<img src="images/home4.png" alt="">
+		  	</div>
+		    <div class="item" data-target="#apple" data-toggle="modal">
+		    	<img src="images/home5.jpg" alt="">
+		  	</div>
+			</div>
+		</div>
+	</section>
+	<div class="modal fade" id="iphone" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="product-inner">
+      	<div class="title-product text-center">
+					CREMA PONDS
+				</div>
+				<div class="title-product text-center">
+					PRECIO: S/.120.00
+				</div>
+      	<div class="row">
+      		<div class="col-md-12">
+      			<div class="product-inner-image">
+      				<figure>
+      					<img src="images/cp-2.png" alt="">
+      				</figure>
+      			</div>
+      		</div>
+      		<div class="col-md-12">
+      			<div class="product-inner-info">
+      				<div class="title-info">
+      					Crema ponds, rica en vitaminas D, es muy bueno para el rejuvenicimiento facial.
+      				</div>
+      				<div class="title-footer">
+      					¿DÓNDE COMPRARLO? AV. SANTIAGO RUIZ 123, LINCE, LIMA.
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      </div>
+    </div>
+  </div>
+	</div>
+	<div class="modal fade" id="masajes" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="product-inner">
+      	<div class="title-product text-center">
+					GARNIER
+				</div>
+				<div class="title-product text-center">
+					PRECIO: S/. 135.00
+				</div>
+      	<div class="row">
+      		<div class="col-md-12">
+      			<div class="product-inner-image">
+      				<figure>
+      					<img src="images/cp-1.jpg" alt="">
+      				</figure>
+      			</div>
+      		</div>
+      		<div class="col-md-12">
+      			<div class="product-inner-info">
+      				<div class="title-info">
+      					Crema hidratante para la cara, alto en vitaminas C.
+      				</div>
+      				<div class="title-footer">
+      					¿DÓNDE TOMARLO? AV. SANTIAGO RUIZ 125, LINCE, LIMA.
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      </div>
+    </div>
+  </div>
+	</div>
+	<div class="modal fade" id="maquillaje" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="product-inner">
+	      	<div class="title-product text-center">
+						GEELE MITZA
+					</div>
+					<div class="title-product text-center">
+						PRECIO: S/.150.00
+					</div>
+	      	<div class="row">
+	      		<div class="col-md-12">
+	      			<div class="product-inner-image">
+	      				<figure>
+	      					<img src="images/cp-3.jpg" alt="">
+	      				</figure>
+	      			</div>
+	      		</div>
+	      		<div class="col-md-12">
+	      			<div class="product-inner-info">
+	      				<div class="title-info">
+	      					Esta crema es para el cabello y ayuda con el tratamiento.
+	      				</div>
+	      				<div class="title-footer">
+	      					¿DÓNDE COMPRARLO? AV. SANTIAGO RUIZ 225, LINCE, LIMA.
+	      				</div>
+	      			</div>
+	      		</div>
+	      	</div>
+	      </div>
+	    </div>
+  	</div>
+	</div>
+	<div class="modal fade" id="audifonos" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="product-inner">
+	      	<div class="title-product text-center">
+						Air Pods inalámbricos apple
+					</div>
+					<div class="title-product text-center">
+						PRECIO: S/.150.00
+					</div>
+	      	<div class="row">
+	      		<div class="col-md-12">
+	      			<div class="product-inner-image">
+	      				<figure>
+	      					<img src="images/home4.png" alt="">
+	      				</figure>
+	      			</div>
+	      		</div>
+	      		<div class="col-md-12">
+	      			<div class="product-inner-info">
+	      				<div class="title-info">
+	      					Sácalos del estuche y estarán listos para funcionar con todos tus dispositivos. Póntelos y se conectarán al instante. Habla y tu voz se escuchará con una claridad sorprendente. Te presentamos los AirPods. La simplicidad y la tecnología unidas a la perfección. El resultado es absolutamente mágico.
+	      				</div>
+	      				<div class="title-footer">
+	      					¿DÓNDE COMPRARLO? AV. SANTIAGO RUIZ 225, LINCE, LIMA.
+	      				</div>
+	      			</div>
+	      		</div>
+	      	</div>
+	      </div>
+	    </div>
+  	</div>
+	</div>
+	<div class="modal fade" id="apple" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="product-inner">
+	      	<div class="title-product text-center">
+						Audífonos apple
+					</div>
+					<div class="title-product text-center">
+						PRECIO: S/.50.00
+					</div>
+	      	<div class="row">
+	      		<div class="col-md-12">
+	      			<div class="product-inner-image">
+	      				<figure>
+	      					<img src="images/home4.png" alt="">
+	      				</figure>
+	      			</div>
+	      		</div>
+	      		<div class="col-md-12">
+	      			<div class="product-inner-info">
+	      				<div class="title-info">
+	      				Los Auriculares iPod son los auriculares simbólicos blancos que se venden junto a todos los reproductores de música diseñados y comercializados por la empresa Apple Inc.
+	      				</div>
+	      				<div class="title-footer">
+	      					¿DÓNDE COMPRARLO? AV. SANTIAGO RUIZ 225, LINCE, LIMA.
+	      				</div>
+	      			</div>
+	      		</div>
+	      	</div>
+	      </div>
+	    </div>
+  	</div>
+	</div>
+	<div class="modal fade" id="audifonos" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="product-inner">
+	      	<div class="title-product text-center">
+						Air Pods inalámbricos apple
+					</div>
+					<div class="title-product text-center">
+						PRECIO: S/.150.00
+					</div>
+	      	<div class="row">
+	      		<div class="col-md-12">
+	      			<div class="product-inner-image">
+	      				<figure>
+	      					<img src="images/home4.png" alt="">
+	      				</figure>
+	      			</div>
+	      		</div>
+	      		<div class="col-md-12">
+	      			<div class="product-inner-info">
+	      				<div class="title-info">
+	      					Sácalos del estuche y estarán listos para funcionar con todos tus dispositivos. Póntelos y se conectarán al instante. Habla y tu voz se escuchará con una claridad sorprendente. Te presentamos los AirPods. La simplicidad y la tecnología unidas a la perfección. El resultado es absolutamente mágico.
+	      				</div>
+	      				<div class="title-footer">
+	      					¿DÓNDE COMPRARLO? AV. SANTIAGO RUIZ 225, LINCE, LIMA.
+	      				</div>
+	      			</div>
+	      		</div>
+	      	</div>
+	      </div>
+	    </div>
+  	</div>
+	</div>
+	<div class="modal fade" id="apple" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="product-inner">
+	      	<div class="title-product text-center">
+						Audífonos apple
+					</div>
+					<div class="title-product text-center">
+						PRECIO: S/.50.00
+					</div>
+	      	<div class="row">
+	      		<div class="col-md-12">
+	      			<div class="product-inner-image">
+	      				<figure>
+	      					<img src="images/home4.png" alt="">
+	      				</figure>
+	      			</div>
+	      		</div>
+	      		<div class="col-md-12">
+	      			<div class="product-inner-info">
+	      				<div class="title-info">
+	      				Los Auriculares iPod son los auriculares simbólicos blancos que se venden junto a todos los reproductores de música diseñados y comercializados por la empresa Apple Inc.
+	      				</div>
+	      				<div class="title-footer">
+	      					¿DÓNDE COMPRARLO? AV. SANTIAGO RUIZ 225, LINCE, LIMA.
+	      				</div>
+	      			</div>
+	      		</div>
+	      	</div>
+	      </div>
+	    </div>
+  	</div>
+	</div>
+	<div class="modal fade" id="iphone" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="product-inner">
+      	<div class="title-product text-center">
+					Iphone 7 plus, 16gb
+				</div>
+				<div class="title-product text-center">
+					PRECIO: S/.1200.00
+				</div>
+      	<div class="row">
+      		<div class="col-md-12">
+      			<div class="product-inner-image">
+      				<figure>
+      					<img src="images/home2.jpg" alt="">
+      				</figure>
+      			</div>
+      		</div>
+      		<div class="col-md-12">
+      			<div class="product-inner-info">
+      				<div class="title-info">
+      					Capacidad: 32GB 
+								Tamaño: 138.3 mm x 67.1 mm x 7.1 mm
+								Peso: 138 g
+								Pantalla Retina HD: Widescreen de 4.7 pulgadas (diagonal) retroiluminada por LED, Multi-Touch con tecnología IPS, Resolución de 1334 x 750 pixeles a 326 ppi, Relación de contraste 1400:1 (normal)
+								Resistente a las salpicaduras, al agua y al polvo: Clasificación IP67 según la norma IEC 60529
+								Chip A10 Fusion con arquitectura de 64 bits y coprocesador de movimiento M10 integrado
+								Cámara: 12 MP, Apertura de ƒ/1.8, Zoom digital de hasta 5x 
+								Sistema operativo: iOS 10
+      				</div>
+      				<div class="title-footer">
+      					¿DÓNDE COMPRARLO? AV. SANTIAGO RUIZ 123, LINCE, LIMA.
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      </div>
+    </div>
+  </div>
+	</div>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 <script src="js/ofertas.js"></script>
 </body>
 </html>

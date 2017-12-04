@@ -375,76 +375,6 @@ p {
       color: rgba(255, 255, 255, 0.7);
       font-size: 30px; }
 
-/*Slider*/
-.section-home--container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  height: 80%; }
-
-.content-slider {
-  width: 100%; }
-
-.slider {
-  display: none;
-  overflow: hidden; }
-
-.slider.is-active {
-  display: block; }
-
-.slider-main {
-  display: flex;
-  align-items: center; }
-
-.slider-contents {
-  overflow: hidden;
-  flex: 1; }
-
-.slider-contents-inner {
-  display: flex;
-  flex-flow: row nowrap;
-  transition: transform 300ms; }
-
-.slider-item {
-  overflow: hidden;
-  margin: 0 1rem;
-  flex: 1;
-  height: 150px;
-  background-color: #eee; }
-  .slider-item img {
-    width: 150%; }
-
-.slider-control {
-  flex: 0 0 4rem;
-  max-width: 4rem;
-  height: 4rem;
-  background-color: #eee;
-  cursor: pointer; }
-
-.slider-control--prev {
-  margin-right: 1rem; }
-
-.slider-control--next {
-  margin-left: 1rem; }
-
-.slider-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem; }
-
-.slider-nav-item {
-  margin: 0 0.5rem;
-  width: 1.5rem;
-  height: 1.5rem;
-  background-color: #ccc;
-  border-radius: 50%;
-  cursor: pointer; }
-
-.slider-nav-item.is-active {
-  background-color: #aaa; }
-
 /*Oferts*/
 .section-bannerOfert {
   padding-top: 40px;
@@ -483,6 +413,29 @@ p {
       .section-oferts .text-bottom h3 {
         padding: 10px;
         color: #000; }
+
+.product-inner {
+  padding: 30px 100px; }
+
+.title-product {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 18px;
+  font-weight: bold; }
+
+.title-info {
+  font-size: 15px; }
+
+.title-footer {
+  margin-top: 70px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #1498d5;
+  letter-spacing: 2px; }
+
+.item {
+  height: 250px;
+  overflow: hidden; }
 
 .form {
   padding: 40px;
